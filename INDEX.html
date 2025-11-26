@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Embed (Exact Look)</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #fff; 
+      overflow: hidden; 
+    }
+
+    iframe {
+      position: fixed;A
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+
+    /* ใส่โค้ดนี้ลงในไฟล์ CSS ของเว็บไซต์ภายนอก */
+    @font-face {
+        font-family: 'Noto Sans Thai Custom'; /* กำหนดชื่อฟอนต์ใหม่เพื่อแยกความชัดเจน */
+        src: url('C:/Users/rujir/Downloads/index/font/NotoSansThai.woff2') format('woff2'), /* แก้ไข URL นี้ */
+            url('C:/Users/rujir/Downloads/index/font/NotoSansThai.woff') format('woff');  /* ใส่ .woff เป็นตัวสำรอง */
+        font-weight: 400; /* น้ำหนักฟอนต์ปกติ */
+        font-style: normal;
+        font-display: swap; /* สำคัญ: ให้เบราว์เซอร์แสดงฟอนต์สำรองก่อน แล้วค่อยสลับมาใช้ฟอนต์นี้เมื่อโหลดเสร็จ */
+    }
+  </style>
+</head>
+<body>
+
+  <iframe
+    src="https://app.powerbi.com/view?r=eyJrIjoiZDkzNDcwZDMtMmY0MC00ZTM2LWJjODMtNzFmMmRmY2ZkOGJmIiwidCI6IjdhOWZmNDg0LWZiMDctNDI3Zi05Y2QyLWJjMjUzOTU1ZGI0YSIsImMiOjEwfQ%3D%3D"
+    allowfullscreen="true">
+  </iframe>
+
+</body>
+</html>
+
